@@ -1,4 +1,9 @@
-A = int(input())
+t = []
 
-for i in range(1,10001):
-    if(i % A == 2):print(i)
+for i in range(101):
+    a = int(input())
+    t.append(a)
+    
+
+print(max(t))
+print(t.index(max(t))+1)
